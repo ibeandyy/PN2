@@ -1,0 +1,40 @@
+{
+  "name": "@jiman24/discordjs-rpg",
+  "version": "3.4.1",
+  "description": "discord rpg framework",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepare": "tsc",
+    "build": "tsc",
+    "doc": "typedoc --out docs src/index.ts",
+    "dev": "nodemon dist/test/index.js",
+    "watch": "tsc -w"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "rpg"
+  ],
+  "author": "issadarkthing",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/issadarkthing/discordjs-rpg.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "common-tags": "^1.8.0",
+    "discord.js": "^13.7.0",
+    "dotenv": "^10.0.0",
+    "lodash.clonedeep": "^4.5.0",
+    "random-js": "^2.1.0",
+    "unb-api": "^1.2.3"
+  },
+  "devDependencies": {
+    "@jiman24/commandment": "^0.0.5",
+    "@types/common-tags": "^1.8.1",
+    "@types/lodash.clonedeep": "^4.5.6",
+    "typedoc": "^0.22.5",
+    "typescript": "^4.4.3"
+  }
+}
